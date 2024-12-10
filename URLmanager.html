@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Manager</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#4285f4">
+    
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>URL Manager</h1>
+	<div>
+		<label for="urlInput">Enter URL:</label>
+		<input type="text" id="urlInput">
+		<button onclick="addUrl()">Add URL</button>
+	</div>
+	
+	<div style="Margin-top:20px" id="urlList"></div>
+	
+	<div style="Margin-top:20px">
+	<button onclick="openAllUrls()">Open All URLs</button>
+	</div>
+	
+	<!--
+	<div style="Margin-top:250px">
+	<button onclick="clearUrls()">Delete All URLs</button>
+	</div>
+	-->
+</body>
+</html>
